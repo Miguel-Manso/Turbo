@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+</head>
+<body bgcolor="#CCCCCC">
+    <p>
+    <font size="6" face="Impact, Geneva, sans-serif" >
+        <p align="center"><i>ENTRE OU CADASTRE-SE</i></p> 
+    </font>    
+
+    <table align="center" width="25%" height="100%" border="2">
+    <tr><td>
+        <form align="center"> 
+            <p>
+                <label>Nome:</label> 
+                <input type="text" name="nome" placeholder="Seu Nome"/>
+            </p>
+            <p>
+                <label>E-mail:</label>
+                <input type="email" name="email" placeholder="Seu E-mail" />
+            </p>
+            <p>
+                <label>Senha:</label>
+                <input type="password" name="senha" placeholder="Sua senha"/>
+            </p>
+            <hr />
+            <p>
+                <label>Endereço:</label>
+                <input type="text" name="endereco" placeholder="Seu endereço"/>
+            </p>
+            <p>
+                <label>Cidade:</label> <br /> 
+                <select name="cidade">
+                    <option selected>Bebedouro</option>
+                    <option>Viradouro</option>
+                    <option>Taiaçú</option>
+                    <option>Terra Roxa</option>
+                </select>
+            </p>
+            <p>
+                <label>Sexo:</label> <br /> 
+                <input type="radio" name="sexo" value="masculino"/> Masculino <br />
+                <input type="radio" name="sexo" value="feminino"/> Feminimo <br />
+            </p>
+            <hr />
+            <p>
+                <a href="cadastrar.html" target="principal"><img align="center" src="imagens/redefinir.png" alt="Redefinir" id="redefinir" width="25%" height="25%"/></a>
+                <a href="cadastrar.html" target="principal"><img align="center" src="imagens/cadastrar.png" onclick="Login()" alt="Cadastrar" id="cadastrar" width="25%" height="25%"/></a>
+            </p>
+        </form>
+    </td></tr>
+    </table>
+    </p>
+
+    <script type="text/javascript">
+        function Login(){
+            alert('Cadastro Feito Com Sucesso!')
+    
+        
+        }
+        
+    </script>
+</body>
+</html>
